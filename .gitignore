@@ -1,0 +1,6 @@
+*.ai
+*.log
+*.pdf
+*.psd
+prepros.cfg
+node_modules/
