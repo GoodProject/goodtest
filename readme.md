@@ -1,1 +1,1 @@
-# goodtest
+# goodtest adaptive
