@@ -1,8 +1,28 @@
-* {
-  box-sizing: border-box;
+/* ___________ 1. Общие стили ___________*/
+body {
+  min-width: 320px;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Arial", sans-serif;
+  color: #f7f4f1;
+  font-style: normal;
+  background-color: #292929;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 .hidden {
   display: none;
+}
+/* ___________ 2. Header ___________*/
+.main-nav {
+  min-height: 310px;
+}
+@media (min-width: 768px) {
+  .main-nav {
+    background-color: red;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

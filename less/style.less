@@ -1,7 +1,43 @@
-* {
-    box-sizing: border-box;
+// Переменные и примеси
+@bg-darkgrey: #292929;
+@bg-lightgrey: #f8f5f2;
+@tablet-width: 768px;
+@desktop-width: 1200px;
+
+.no-outline() {
+    outline: none;
+    background: transparent;
+    
+    &:before {
+        display: none;
+    }
+}
+
+/* ___________ 1. Общие стили ___________*/
+body {
+    min-width: 320px;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "Arial", sans-serif;
+    color: #f7f4f1;
+    font-style: normal;
+    background-color: @bg-darkgrey;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .hidden {
     display: none;
+}
+
+/* ___________ 2. Header ___________*/
+
+.main-nav {
+    min-height: 310px;
+    @media (min-width: @tablet-width) {
+        background-color: red;
+    }
 }
